@@ -48,7 +48,7 @@ $(document).ready(function(){
     }
 
     function displayMap(position){
-        var link = `<a href='https://www.google.com/maps/search/?api=1&query=${position.lat},${position.lng}'>Map location</a>`;
+        var link = `<a href='https://www.google.com/maps/search/?api=1&query=${position.lat},${position.lng}' target="_blank">Map location</a>`;
 
         $("#map").append(link); 
     }

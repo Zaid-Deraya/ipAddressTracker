@@ -1,20 +1,27 @@
-body{
-    background-color: rgb(206, 120, 120);
-    justify-content: center;
-}
-
 #form{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 1200px;
-    height: auto;
-    margin: auto;
-
+    margin: 50px;
 }
 
-.ip {
+#map{
+    align-items: center;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+    margin-top: 20px
+}
+
+.ip{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#details{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: darkseagreen;
 }
