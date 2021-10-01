@@ -40,15 +40,14 @@ $(document).ready(function(){
     function displayDetails(city, country_name, country_flag){
         var details = `
             <h1>${country_name}</h1><br><h2>${city}</h2><br>
-            <img src="${country_flag}">
-        `;
+            <img src="${country_flag}">`;
 
         $("#details").append(details); 
 
     }
 
     function displayMap(position){
-        var link = `<a href='https://www.google.com/maps/search/?api=1&query=${position.lat},${position.lng}' target="_blank">Map location</a>`;
+        var link = `<a href='https://www.google.com/maps/search/?api=1&query=${position.lat},${position.lng}' target="_blank">Map Location</a>`;
 
         $("#map").append(link); 
     }

@@ -7,12 +7,16 @@
 #map{
     align-items: center;
     text-align: center;
-    margin-top: 20px
+    margin-top: 20px;
+    color: rgb(196, 53, 53);
+
 }
 
 .ip{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 3px;
 }
 
 #details{
@@ -20,8 +24,19 @@
     text-align: center;
     margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(37, 175, 37);
 }
 
 body{
     background-color: darkseagreen;
+}
+
+#ip{
+    border-radius: 7px;
+    padding: 5px;
+
+}
+
+#btn{
+    border-radius: 7px;
 }
