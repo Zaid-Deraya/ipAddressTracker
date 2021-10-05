@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#form").submit(function(){
-        
+        event.preventDefault();
 
         var ip = $('#ip').val();
         
